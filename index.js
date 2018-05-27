@@ -21,9 +21,10 @@ function currentLine(line) {
     let arrayOfNames = [ ];
     
     for (var c = 0; c < line.length; c++) {
-      let str = `${c+1. }` + `${line[c]}`;
-      arrayOfNames.push[str];
+      let str = `${c+1}. ${line[c]}`;
+      arrayOfNames.push(str);
     }
     return 'The line is currently: ' + arrayOfNames.join(', ');
+
   }
 }
